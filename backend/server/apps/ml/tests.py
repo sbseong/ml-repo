@@ -1,5 +1,7 @@
-from django.test import TestCase
+import inspect
+from apps.ml.registry import MLRegistry
 
+from django.test import TestCase
 from apps.ml.income_classifier.random_forest import RandomForestClassifier
 
 
